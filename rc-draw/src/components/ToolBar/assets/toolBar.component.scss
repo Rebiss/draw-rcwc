@@ -1,0 +1,33 @@
+@import  '../../assets/varibles.scss';
+
+.bar{
+    height: $toolbar-height;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0px 4px 5px gray;
+    z-index: 999;
+}
+
+.tool_bar_btn {
+    height: 25px;
+    width: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+    margin-left: 18px;
+}
+.tool-input{
+    margin-left: 10px;
+}
+
+.left {
+    margin-left: auto;
+}
+
+.right {
+    margin-right: 20px;
+}
