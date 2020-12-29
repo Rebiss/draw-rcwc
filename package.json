@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "mobx": "^6.0.4",
+    "mobx-react-lite": "^3.1.6",
+    "react-bootstrap": "^1.4.0",
+    "react-router-dom": "^5.2.0"
+  }
+}
