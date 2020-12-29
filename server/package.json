@@ -1,0 +1,20 @@
+{
+  "name": "draw-server",
+  "version": "0.0.1",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "prettier": "2.2.1"
+  },
+  "scripts": {
+    "start": "nodemon main.js",
+    "server": "node start.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0"
+  }
+}
