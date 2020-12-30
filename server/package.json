@@ -2,6 +2,7 @@
   "name": "draw-server",
   "version": "0.0.1",
   "main": "main.js",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.6",

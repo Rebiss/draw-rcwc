@@ -1,9 +1,7 @@
-const express = require('express'),
-    app = express(),
-    WSServer = require('express-ws')(app),
-    const aWss = WSServer.getWss(),
-    {postImage, getImage} =require('../controllers/main.controller');
+import Router from 'express'
+import {webSoket} from '../controllers/main.controller'
+const routes = new Router();
 
-routerRoot.ws('/', webSoket)
+routes.ws('/', webSoket)
 
 export default routerRoot
